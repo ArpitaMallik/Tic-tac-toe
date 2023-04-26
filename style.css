@@ -1,0 +1,48 @@
+.container{
+    background-color: #bde0fe;
+    height: 745px;
+}
+
+:root{
+    --winning-blocks: #0fa3b1;
+}
+
+header > h2{
+    font-family: 'Finger Paint', cursive;
+    padding: 10px;
+    font-size: 50px;
+    background-color: #92c8f9;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+}
+
+#cellContainer{
+    font-family: 'Finger Paint', cursive;
+    font-size: 50px;   
+}
+
+main{
+    margin-top: 160px;
+}
+
+button{
+    padding: 5px;
+    width: 100px;
+    border: 2px solid #fefae0;
+    border-radius: 4px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #fefae0;
+    color:black;
+    font-family: 'Finger Paint', cursive;
+}
+
+#status{
+    font-family: 'Sigmar', cursive;
+}
